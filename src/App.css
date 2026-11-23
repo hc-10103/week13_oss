@@ -44,6 +44,8 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px s
 .search-input { width: 100%; min-width: 0; border-radius: 10px; border: 1px solid #dce4f0; padding: 11px 13px; color: #253451; background: #fcfdff; }
 .ghost-button { border: 1px solid #dce4f0; color: #425883; background: #f8faff; border-radius: 10px; padding: 10px 13px; font-size: 12px; font-weight: 750; white-space: nowrap; }
 .primary-button { border: 1px solid #2a54c2; color: #fff; background: #315fd1; border-radius: 10px; padding: 10px 13px; font-size: 12px; font-weight: 750; white-space: nowrap; }
+.primary-button:hover:not(:disabled) { background: #264db7; }
+.ghost-button:hover:not(:disabled) { background: #ecf2ff; }
 .primary-button:disabled, .ghost-button:disabled { opacity: .55; cursor: not-allowed; }
 .user-list { display: flex; flex-direction: column; gap: 0; padding: 0; margin: 0; list-style: none; }
 .user-row { display: flex; align-items: center; gap: 12px; padding: 13px 0; border-bottom: 1px solid #eef1f6; }
@@ -58,7 +60,7 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px s
 .weather-empty-icon { margin: 22px auto 16px; width: 80px; height: 80px; border-radius: 24px; background: #eef3ff; display: grid; place-items: center; font-size: 38px; }
 .placeholder-title { margin: 0; text-align: center; font-weight: 800; font-size: 16px; }
 .placeholder-desc { text-align: center; color: #8390a5; font-size: 12px; line-height: 1.8; max-width: 250px; margin: 9px auto; }
-.code-chip { display: table; margin: 18px auto 0; background: #f4f6fb; border-radius: 7px; padding: 9px 12px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: #4262a8; font-size: 11px; }
+.code-chip { display: table; margin: 20px auto 0; background: #f4f6fb; border-radius: 7px; padding: 9px 12px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: #4262a8; font-size: 11px; }
 .mini-section { margin-top: 18px; padding: 19px 24px; background: #fff; border: 1px solid #e6eaf1; border-radius: 16px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
 .mini-section strong { font-size: 13px; }
 .mini-section span { font-size: 12px; color: #8290a5; }
